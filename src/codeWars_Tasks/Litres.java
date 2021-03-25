@@ -1,3 +1,21 @@
+/*
+ * Nathan loves cycling.
+
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+
+For example:
+
+time = 3 ----> litres = 1
+
+time = 6.7---> litres = 3
+
+time = 11.8--> litres = 5
+ */
+
+
+
 package codeWars_Tasks;
 
 public class Litres {
@@ -9,9 +27,6 @@ public class Litres {
 
 	public static void main(String[] args) {
 		 
-		    /*Scanner obj = new Scanner(System.in);
-		    System.out.println("Please enter time: ");
-		    double time = obj.nextInt();*/
 		    
 		    System.out.println("Nathan will drink: " + KeepHydrated(8) + " litres");
 		    
